@@ -1,0 +1,9 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+opencv-python-headless>=4.9
+numpy>=1.26
+pydantic>=2.6
+# AI vision engines (Gemini / OpenAI / Groq over HTTPS, Claude via the Anthropic SDK)
+requests>=2.31
+anthropic>=1.9,<2

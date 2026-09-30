@@ -1,0 +1,1 @@
+"""Weight Extractor backend package."""

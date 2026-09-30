@@ -1,0 +1,4 @@
+# Optional deep-learning OCR engine (pulls in PyTorch, about 1-2 GB).
+# For NVIDIA GPU acceleration, install a CUDA build of torch first:
+#   https://pytorch.org/get-started/locally/
+easyocr>=1.7

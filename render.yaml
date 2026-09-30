@@ -4,7 +4,7 @@ services:
   - type: web
     runtime: docker
     name: weight-extractor-api
-    rootDir: backend
+    # Paths are relative to the repo root (a rootDir would be prefixed to them).
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
     plan: free
